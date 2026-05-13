@@ -21,7 +21,7 @@ for i in range(cantidad_viajes):
 
 # ACUMULAMOS: Al total que ya teníamos, le sumamos el valor de este nuevo viaje
 
-ingreso_bruto = ingreso_bruto + valor_viaje
+    ingreso_bruto = ingreso_bruto + valor_viaje
 # --- Al terminar todas las vueltas del ciclo for, el código continúa aquí abajo ---
 
 # 5. Cálculos de descuentos sobre el gran total acumulado
