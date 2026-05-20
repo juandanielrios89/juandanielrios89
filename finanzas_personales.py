@@ -12,8 +12,9 @@ while True:
         # 3. Restamos gastos fijos de supervivencia
         dinero_libre = ganancia_bruta - GASTOS_FIJOS
         if dinero_libre <= 0:
+         
             print(f" Alerta: Tus ganancias no alcanzan a cubrir tus gastos fijos de ${GASTOS_FIJOS}, por favor revisa tus ingresos o reduce tus gastos.")
-
+            break 
         print(f"\n💵 Dinero libre después de gastos fijos: ${dinero_libre:,.0f}" )
 
         # 4. Definición de porcentajes estratégicos
